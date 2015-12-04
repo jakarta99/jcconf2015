@@ -5,9 +5,11 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.springframework.stereotype.Repository;
 
 import tw.com.softleader.jcconf2015.entity.Book;
 
+@Repository
 public class BookDao {
 
 	public List findAll() {

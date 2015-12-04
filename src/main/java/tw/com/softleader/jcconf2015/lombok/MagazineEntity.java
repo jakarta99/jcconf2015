@@ -15,11 +15,11 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name="BOOK")
+@Table(name="MAGAZINE")
 @ToString
 @Getter
 @Setter
-public class BookEntity {
+public class MagazineEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
